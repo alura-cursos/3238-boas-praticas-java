@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ValidacaoPetDisponivel {
+public class ValidacaoPetDisponivel implements ValidacaoSolicitacaoAdocao {
 
     @Autowired
     private PetRepository petRepository;
